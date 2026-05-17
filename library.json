@@ -1,0 +1,32 @@
+{
+  "title": "Automata Tools",
+  "description": "Editor, runner and grading tools for finite automata.",
+  "majorVersion": 1,
+  "minorVersion": 0,
+  "patchVersion": 0,
+  "runnable": 0,
+  "coreApi": {
+    "majorVersion": 1,
+    "minorVersion": 12
+  },
+  "author": "Andreas Siebel",
+  "license": "MIT",
+  "machineName": "H5P.LibAutomataTools",
+  "preloadedJs": [
+    {
+      "path": "dist/h5p-lib-automata-tools.js"
+    }
+  ],
+  "preloadedCss": [
+    {
+      "path": "dist/h5p-lib-automata-tools.css"
+    }
+  ],
+  "preloadedDependencies": [
+    {
+      "machineName": "H5P.LibCodeTools",
+      "majorVersion": 6,
+      "minorVersion": 87
+    }
+  ]
+}
